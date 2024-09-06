@@ -1,0 +1,27 @@
+.categories-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  @media screen and (min-width: $desktop) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+
+    @media screen and (min-width: $desktop) {
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      column-gap: 30px;
+      row-gap: 60px;
+    }
+  }
+
+  &__item {
+    position: relative;
+  }
+}

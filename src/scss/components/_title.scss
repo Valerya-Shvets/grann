@@ -1,0 +1,10 @@
+.title {
+  font-family: "Moniqa SemBd Cond Display";
+  font-size: 80px;
+  font-weight: 900;
+  text-align: center;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 150px;
+  }
+}

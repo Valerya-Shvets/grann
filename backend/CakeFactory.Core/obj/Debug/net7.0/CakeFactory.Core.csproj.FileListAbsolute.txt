@@ -1,0 +1,12 @@
+D:\Frontend\grann\backend\CakeFactory.Core\bin\Debug\net7.0\CakeFactory.Core.deps.json
+D:\Frontend\grann\backend\CakeFactory.Core\bin\Debug\net7.0\CakeFactory.Core.dll
+D:\Frontend\grann\backend\CakeFactory.Core\bin\Debug\net7.0\CakeFactory.Core.pdb
+D:\Frontend\grann\backend\CakeFactory.Core\obj\Debug\net7.0\CakeFactory.Core.csproj.AssemblyReference.cache
+D:\Frontend\grann\backend\CakeFactory.Core\obj\Debug\net7.0\CakeFactory.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Frontend\grann\backend\CakeFactory.Core\obj\Debug\net7.0\CakeFactory.Core.AssemblyInfoInputs.cache
+D:\Frontend\grann\backend\CakeFactory.Core\obj\Debug\net7.0\CakeFactory.Core.AssemblyInfo.cs
+D:\Frontend\grann\backend\CakeFactory.Core\obj\Debug\net7.0\CakeFactory.Core.csproj.CoreCompileInputs.cache
+D:\Frontend\grann\backend\CakeFactory.Core\obj\Debug\net7.0\CakeFactory.Core.dll
+D:\Frontend\grann\backend\CakeFactory.Core\obj\Debug\net7.0\refint\CakeFactory.Core.dll
+D:\Frontend\grann\backend\CakeFactory.Core\obj\Debug\net7.0\CakeFactory.Core.pdb
+D:\Frontend\grann\backend\CakeFactory.Core\obj\Debug\net7.0\ref\CakeFactory.Core.dll

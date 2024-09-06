@@ -1,0 +1,26 @@
+.orders-section {
+  background-color: #fff;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  color: #000;
+
+  &__title {
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}

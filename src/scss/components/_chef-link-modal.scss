@@ -1,0 +1,31 @@
+.chef-link-modal {
+  width: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  //   border: 1px solid black;
+
+  &__input {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--color-main-blue);
+    background-color: transparent;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    margin-top: 20px;
+  }
+
+  &__btn {
+    display: block;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 20px;
+    flex-basis: calc(100% / 2);
+  }
+}

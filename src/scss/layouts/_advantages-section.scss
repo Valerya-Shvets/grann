@@ -1,0 +1,119 @@
+.advantages-section {
+  padding-top: 50px;
+  background-image: url("/public/images/advantages-background.png");
+
+  @media screen and (min-width: $desktop) {
+    background-image: url("/public/images/advantages-background(desktop).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__container {
+    @media screen and (min-width: $desktop) {
+      display: flex;
+      align-items: center;
+      column-gap: 120px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    text-align: center;
+
+    @media screen and (min-width: $desktop) {
+      order: 2;
+    }
+  }
+
+  &__item {
+    &__heading {
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 300;
+      margin-bottom: 15px;
+
+      @media screen and (min-width: $desktop) {
+        font-size: 24px;
+        text-align: left;
+      }
+    }
+
+    &__paragraph {
+      font-size: 16px;
+
+      @media screen and (min-width: $desktop) {
+        font-size: 18px;
+        text-align: justify;
+      }
+    }
+  }
+
+  &__image-block {
+    margin-top: 80px;
+
+    @media screen and (min-width: $desktop) {
+      order: 1;
+    }
+  }
+
+  &__ins {
+    position: relative;
+    text-align: center;
+    font-family: "Jeff Script Web", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+
+    @media screen and (min-width: $desktop) {
+      font-size: 48px;
+    }
+
+    &-rotate {
+      position: absolute;
+
+      &:nth-child(1) {
+        top: -45px;
+        left: 18%;
+
+        @media screen and (min-width: $desktop) {
+          top: -60px;
+        }
+      }
+      &:nth-child(2) {
+        top: -55px;
+        left: 34%;
+
+        @media screen and (min-width: $desktop) {
+          top: -75px;
+        }
+      }
+      &:nth-child(3) {
+        top: -46px;
+        left: 53%;
+
+        @media screen and (min-width: $desktop) {
+          top: -60px;
+        }
+      }
+      &:nth-child(4) {
+        top: -25px;
+        left: 67%;
+      }
+    }
+  }
+
+  &__img {
+    width: 355px;
+    height: 295px;
+
+    @media screen and (min-width: $desktop) {
+      width: 605px;
+      height: 504px;
+    }
+  }
+}

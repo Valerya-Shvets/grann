@@ -1,0 +1,32 @@
+.admin-section {
+  background-color: #fff;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  color: #000;
+
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-title {
+      font-weight: 500;
+      color: #000;
+    }
+  }
+
+  &__list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+  }
+}

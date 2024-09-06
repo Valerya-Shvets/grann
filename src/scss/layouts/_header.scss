@@ -1,0 +1,135 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--color-secondary-white);
+
+  @media screen and (min-width: $desktop) {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 80px;
+
+    @media screen and (min-width: $desktop) {
+      justify-content: space-between;
+      column-gap: 100px;
+    }
+  }
+
+  &__navigation {
+    @media screen and (min-width: $desktop) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-grow: 1;
+    }
+  }
+
+  &__list {
+    display: none;
+
+    @media screen and (min-width: $desktop) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 100px;
+    }
+  }
+
+  &__item {
+    &-link {
+      transition: all 500ms ease;
+
+      &:hover {
+        color: var(--color-secondary-light);
+      }
+    }
+
+    @media screen and (min-width: $desktop) {
+      text-transform: uppercase;
+      font-size: 24px;
+    }
+  }
+
+  &__logo {
+    width: 90px;
+    height: 80px;
+
+    @media screen and (min-width: $desktop) {
+      width: 115px;
+      height: 90px;
+    }
+  }
+
+  &__container-icons {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    position: relative;
+
+    @media screen and (min-width: $desktop) {
+      display: none;
+    }
+  }
+
+  &__cart-container {
+    position: relative;
+  }
+
+  &__cart,
+  &__icon {
+    width: 25px;
+    height: 25px;
+    color: var(--color-main-brown);
+    cursor: pointer;
+    transition: all 500ms ease;
+
+    &:hover {
+      fill: var(--color-secondary-light);
+    }
+  }
+
+  &__cart {
+    display: none;
+    @media screen and (min-width: $desktop) {
+      display: block;
+      position: relative;
+      z-index: 1;
+      width: 40px;
+      height: 40px;
+    }
+
+    &-amount {
+      position: absolute;
+      background-color: var(--color-secondary-light);
+      font-size: 10px;
+      font-weight: 500;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 3px;
+      padding-right: 3px;
+      border-radius: 50%;
+      z-index: 10;
+      top: -6px;
+      right: -3px;
+
+      @media screen and (min-width: $desktop) {
+        top: -5px;
+        right: -3px;
+        font-size: 14px;
+      }
+
+      &--desktop {
+        display: none;
+
+        @media screen and (min-width: $desktop) {
+          display: block;
+        }
+      }
+    }
+  }
+}

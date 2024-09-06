@@ -1,0 +1,33 @@
+.chefs-card-admin {
+  display: block;
+  flex-basis: calc((100% - 40px) / 3);
+  padding: 20px;
+  border: 1px solid rgba(142, 142, 147, 0.2);
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    color: var(--color-main-gray);
+    margin-bottom: 20px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  &__btn-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}

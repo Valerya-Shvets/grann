@@ -1,0 +1,10 @@
+.chefs-admin-section {
+  &__chefs {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,81 @@
+.order-section {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background-image: url("/public/images/order-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-main-white);
+
+  @media screen and (min-width: $desktop) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url("/public/images/order-background(desktop).jpg");
+  }
+
+  &__container {
+    @media screen and (min-width: $desktop) {
+      display: flex;
+      align-items: center;
+      column-gap: 200px;
+    }
+  }
+
+  &__text-content {
+    @media screen and (min-width: $desktop) {
+      flex-basis: calc((100% - 200px) / 2);
+    }
+  }
+
+  &__title {
+    margin-bottom: 50px;
+    font-family: "Jeff Script Web", sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    color: var(--color-main-white);
+    transform: rotate(-4deg);
+
+    @media screen and (min-width: $desktop) {
+      font-size: 54px;
+      margin-bottom: 80px;
+    }
+  }
+
+  &__paragraph {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+
+    @media screen and (min-width: $desktop) {
+      font-size: 18px;
+      width: 450px;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+
+    @media screen and (min-width: $desktop) {
+      flex-grow: 1;
+    }
+
+    &-textarea {
+      height: 180px;
+    }
+
+    &-button {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+      color: var(--color-main-brown);
+      border: none;
+      cursor: pointer;
+
+      @media screen and (min-width: $desktop) {
+        font-size: 24px;
+      }
+    }
+  }
+}

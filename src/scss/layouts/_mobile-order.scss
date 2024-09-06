@@ -1,0 +1,143 @@
+.mobile-order {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-main-white);
+  color: var(--color-main-brown);
+  transform: translateX(100%);
+  transition: transform 0.3s;
+  z-index: 10;
+  overflow-y: scroll;
+
+  @media screen and (min-width: $desktop) {
+    overflow-y: hidden;
+  }
+
+  &.is-open {
+    transform: translateX(0);
+  }
+
+  &__close-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  &__ins {
+    position: relative;
+    text-align: center;
+    font-family: "Jeff Script Web", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    @media screen and (min-width: $desktop) {
+      font-size: 24px;
+    }
+
+    &-rotate {
+      position: absolute;
+
+      &:nth-child(1) {
+        top: -30px;
+        left: 34%;
+
+        @media screen and (min-width: $desktop) {
+          left: 43%;
+        }
+      }
+      &:nth-child(2) {
+        top: -36px;
+        left: 45%;
+
+        @media screen and (min-width: $desktop) {
+          top: -41px;
+          left: 47%;
+        }
+      }
+      &:nth-child(3) {
+        top: -28px;
+        left: 59%;
+
+        @media screen and (min-width: $desktop) {
+          top: -31px;
+          left: 52%;
+        }
+      }
+      &:nth-child(4) {
+        top: -11px;
+        left: 69%;
+
+        @media screen and (min-width: $desktop) {
+          top: -9px;
+          left: 56%;
+        }
+      }
+    }
+  }
+
+  &__image {
+    display: block;
+    width: 145px;
+    height: 120px;
+    margin: 0 auto;
+
+    @media screen and (min-width: $desktop) {
+      width: 182px;
+      height: 152px;
+    }
+  }
+
+  &__title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  &__paragraph {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 32px;
+
+    @media screen and (min-width: $desktop) {
+      font-size: 24px;
+      width: 663px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &__button-container {
+    @media screen and (min-width: $desktop) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 32px;
+    }
+  }
+
+  &__main-btn {
+    @media screen and (min-width: $desktop) {
+      width: 393px;
+      height: 67px;
+    }
+  }
+
+  &__continue-btn {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+
+    @media screen and (min-width: $desktop) {
+      width: 393px;
+      height: 67px;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.prev-path {
+  color: black;
+  transition: color 300ms ease;
+
+  &:hover {
+    color: var(--color-secondary-light);
+  }
+}
+
+.path {
+  font-size: 14px;
+}

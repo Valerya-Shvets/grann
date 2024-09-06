@@ -1,0 +1,109 @@
+.hero-section {
+  padding-top: 50px;
+
+  @media screen and (min-width: $desktop) {
+    padding-top: 100px;
+  }
+
+  &__title {
+    position: relative; // add
+    font-weight: 900;
+    font-family: "Moniqa SemBd Cond Display";
+    font-size: 120px;
+    text-align: center;
+    text-transform: uppercase;
+
+    @media screen and (min-width: $desktop) {
+      font-size: 225px;
+    }
+  }
+
+  &__paragraph {
+    position: relative; // add
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: $desktop) {
+      font-size: 24px;
+      margin-bottom: 0;
+      top: -25px;
+      left: 55px;
+    }
+  }
+
+  &__flex-container {
+    position: relative;
+    display: flex;
+    column-gap: 30px;
+
+    @media screen and (min-width: $desktop) {
+      column-gap: 0;
+    }
+  }
+
+  &__container-image {
+    position: relative;
+    z-index: -3;
+    left: -75%;
+
+    @media screen and (min-width: $desktop) {
+      left: -100px;
+    }
+  }
+
+  &__img {
+    width: 545px;
+    height: 340px;
+
+    @media screen and (min-width: $desktop) {
+      width: 830px;
+      height: 520px;
+    }
+  }
+
+  &__socials {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+
+    @media screen and (min-width: $desktop) {
+      bottom: 20px;
+      top: unset;
+    }
+  }
+
+  &__link {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+    transition: fill 500ms ease;
+
+    &:hover {
+      fill: var(--color-secondary-light);
+    }
+
+    @media screen and (min-width: $desktop) {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  &__button {
+    position: relative;
+    width: 100%;
+    bottom: 45px;
+
+    // &:hover {
+    //   background-color: transparent;
+    // }
+
+    @media screen and (min-width: $desktop) {
+      font-size: 24px;
+      width: fit-content;
+      padding: 20px 110px;
+      bottom: 210px;
+      left: 430px;
+    }
+  }
+}

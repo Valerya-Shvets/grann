@@ -1,0 +1,123 @@
+.input {
+  position: relative;
+
+  &__label {
+    position: absolute;
+    top: -20px;
+    left: 5px;
+  }
+
+  &__control {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: var(--color-main-white);
+    width: 100%;
+    border: 1px solid var(--color-main-white);
+    border-radius: 10px;
+
+    &:focus {
+      border-color: var(--color-main-brown);
+      outline: none;
+    }
+
+    &::placeholder {
+      color: var(--color-secondary-light);
+    }
+
+    &:focus::placeholder {
+      color: var(--color-main-brown);
+    }
+  }
+}
+
+.input-admin {
+  color: #000;
+  font-family: "Roboto";
+  font-style: normal;
+
+  &__label {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  &__control {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Roboto";
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid var(--color-main-gray);
+    border-radius: 10px;
+
+    &:focus {
+      border-color: var(--color-main-blue);
+      outline: none;
+    }
+
+    &::placeholder {
+      color: var(--color-main-gray);
+    }
+
+    &:focus::placeholder {
+      color: var(--color-main-blue);
+    }
+  }
+}
+
+.login-input {
+  height: 90px;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: $desktop) {
+    height: 130px;
+    margin-bottom: 10px;
+  }
+
+  &__label {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-secondary-light);
+
+    @media screen and (min-width: $desktop) {
+      display: block;
+      font-size: 28px;
+      font-weight: 300;
+      margin-bottom: 5px;
+    }
+  }
+
+  &__control {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--color-secondary-light);
+    border-radius: 20px;
+
+    @media screen and (min-width: $desktop) {
+      font-size: 24px;
+      padding: 15px;
+    }
+
+    &:focus {
+      border-color: var(--color-main-brown);
+      outline: none;
+    }
+  }
+
+  &__error {
+    display: block;
+    margin-top: 10px;
+    font-weight: 700;
+    color: black;
+
+    @media screen and (min-width: $desktop) {
+      color: #ef2737;
+    }
+  }
+}

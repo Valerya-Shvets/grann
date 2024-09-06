@@ -1,0 +1,46 @@
+.header-admin {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #fff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 20px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__profile {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    &-icon {
+      height: 40px;
+      width: 40px;
+      color: var(--color-main-blue);
+    }
+  }
+
+  &__exit {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    cursor: pointer;
+    color: var(--color-main-gray);
+    transition: all 300ms ease;
+
+    &-icon {
+      width: 40px;
+      height: 40px;
+    }
+
+    &:hover {
+      color: var(--color-main-blue);
+    }
+  }
+}

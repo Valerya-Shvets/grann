@@ -1,0 +1,119 @@
+.button {
+  cursor: pointer;
+  display: block;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--color-main-light);
+  transition: all 500ms ease;
+
+  &:hover {
+    background-color: var(--color-main-brown);
+    color: var(--color-main-light);
+  }
+}
+
+.button-brown {
+  cursor: pointer;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--color-main-light);
+  background-color: var(--color-main-brown);
+  border: 1px solid var(--color-main-brown);
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: all 500ms ease;
+
+  &:hover {
+    color: var(--color-main-brown);
+    background-color: var(--color-main-light);
+  }
+}
+
+.button-blue {
+  cursor: pointer;
+  background-color: var(--color-main-blue);
+  border: 2px solid var(--color-main-blue);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  transition: all 300ms ease;
+
+  &:hover {
+    background-color: transparent;
+    color: var(--color-main-blue);
+  }
+}
+
+.more-btn {
+  display: block;
+  width: 45px;
+  height: 45px;
+  background-color: var(--color-main-blue);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 12px 17px;
+  border-radius: 50%;
+
+  &:hover {
+    box-shadow: 2px 2px 2px var(--color-main-gray);
+  }
+}
+
+.button-red {
+  cursor: pointer;
+  background-color: #ef2737;
+  color: #fff;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 15px 60px;
+  border: 2px solid #ef2737;
+  transition: all 300ms ease;
+
+  &:hover {
+    background-color: transparent;
+    color: #ef2737;
+  }
+}
+
+.button-ed-del {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 10px;
+  border: 1px solid rgba(142, 142, 147, 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 300ms ease;
+
+  &.edit {
+    color: var(--color-main-gray);
+  }
+
+  &.delete {
+    color: #ef2737;
+  }
+
+  &:hover {
+    color: #000;
+  }
+}

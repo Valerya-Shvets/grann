@@ -1,0 +1,17 @@
+D:\Frontend\grann\backend\CakeFactory.Application\bin\Debug\net7.0\CakeFactory.Application.deps.json
+D:\Frontend\grann\backend\CakeFactory.Application\bin\Debug\net7.0\CakeFactory.Application.dll
+D:\Frontend\grann\backend\CakeFactory.Application\bin\Debug\net7.0\CakeFactory.Application.pdb
+D:\Frontend\grann\backend\CakeFactory.Application\bin\Debug\net7.0\CakeFactory.Core.dll
+D:\Frontend\grann\backend\CakeFactory.Application\bin\Debug\net7.0\CakeFactory.Infrastructure.dll
+D:\Frontend\grann\backend\CakeFactory.Application\bin\Debug\net7.0\CakeFactory.Core.pdb
+D:\Frontend\grann\backend\CakeFactory.Application\bin\Debug\net7.0\CakeFactory.Infrastructure.pdb
+D:\Frontend\grann\backend\CakeFactory.Application\obj\Debug\net7.0\CakeFactory.Application.csproj.AssemblyReference.cache
+D:\Frontend\grann\backend\CakeFactory.Application\obj\Debug\net7.0\CakeFactory.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Frontend\grann\backend\CakeFactory.Application\obj\Debug\net7.0\CakeFactory.Application.AssemblyInfoInputs.cache
+D:\Frontend\grann\backend\CakeFactory.Application\obj\Debug\net7.0\CakeFactory.Application.AssemblyInfo.cs
+D:\Frontend\grann\backend\CakeFactory.Application\obj\Debug\net7.0\CakeFactory.Application.csproj.CoreCompileInputs.cache
+D:\Frontend\grann\backend\CakeFactory.Application\obj\Debug\net7.0\CakeFactory.Application.csproj.CopyComplete
+D:\Frontend\grann\backend\CakeFactory.Application\obj\Debug\net7.0\CakeFactory.Application.dll
+D:\Frontend\grann\backend\CakeFactory.Application\obj\Debug\net7.0\refint\CakeFactory.Application.dll
+D:\Frontend\grann\backend\CakeFactory.Application\obj\Debug\net7.0\CakeFactory.Application.pdb
+D:\Frontend\grann\backend\CakeFactory.Application\obj\Debug\net7.0\ref\CakeFactory.Application.dll
